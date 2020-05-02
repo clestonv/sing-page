@@ -1,4 +1,53 @@
-/* Gera */
+/* Geral */
 html {
 	font-family: 'Open sans', 'sans-serif';
+	color: #373A3C;
+}
+
+a {
+	transition: .5s;
+}
+
+/* Sidebar */
+.sidebar {
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background-color: #006599;
+	padding-top: 40px;
+}
+
+.sidebar h1 {
+	color: #FFF;
+	font-size: 32px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.sidebar a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.sidebar a:hover {
+	color: #F4EF5E;
+}
+
+.sidebar li {
+	padding: 20px;
+}
+
+.sidebar-container {
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+}
+
+.logo-doceria {
+	width: 60px;
+	height: 60px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
 }
