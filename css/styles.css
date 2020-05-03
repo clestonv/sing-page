@@ -139,3 +139,96 @@ section {
 .sessao-bemvindo-btn:hover, form input[type=submit]:hover {
 	background-color: #2790C6;
 }
+
+/* Sessao Sobre */
+
+#sessao-sobre .sessao-minibanner {
+	float: right;
+	margin-right: 50px;
+	background-image: url('../img/banner4.jpg');
+}
+
+#sessao-sobre .sessao-descricao {
+	position: absolute;
+	left: 25px;
+	width: calc(100% - 400px);
+}
+
+/* Galerias */
+
+.banner-galeria {
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	height: 200px;
+}
+
+#sessao-doces1, #sessao-doces2, #sessao-doces3 {
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+
+.doces1-imgs {
+	width: 18.8%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img1 {
+	background-image: url('../img/galeria1.jpg');
+	margin-left: 0;
+}
+#img2 {
+	background-image: url('../img/galeria2.jpg');
+}
+#img3 {
+	background-image: url('../img/galeria3.jpg');
+
+}
+#img4 {
+	background-image: url('../img/galeria4.jpg');
+}
+#img5 {
+	background-image: url('../img/galeria5.jpg');
+	margin-right: 0;
+}
+
+.doces2-imgs {
+	width: 32.3%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img6 {
+	background-image: url('../img/galeria6.jpg');
+	margin-left: 0;
+}
+#img7 {
+	background-image: url('../img/galeria7.jpg');
+}
+#img8 {
+	background-image: url('../img/galeria8.jpg');
+	margin-right: 0;
+}
+
+.doces3-imgs {
+	width: 23.5%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img9 {
+	background-image: url('../img/galeria9.jpg');
+	margin-left: 0;
+}
+#img10 {
+	background-image: url('../img/galeria10.jpg');
+}
+#img11 {
+	background-image: url('../img/galeria11.jpg');
+
+}
+#img12 {
+	background-image: url('../img/galeria12.jpg');
+	margin-right: 0;
+}
